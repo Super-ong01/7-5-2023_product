@@ -1,4 +1,4 @@
-<form action="member_insert.php"method="post"enctype="multipart/form-data">
+<form action="product_insert.php"method="post"enctype="multipart/form-data">
 
 ชื่อ <input type = "text" name="name"/><br/><br/>
 ราคา <input type = "int" name="price"/> <br/><br/>

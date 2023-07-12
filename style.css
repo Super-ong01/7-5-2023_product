@@ -1,0 +1,14 @@
+.table{
+    border: solid 3px#9955ff;
+}
+.table tr:hover {
+ background-color: #f2ff01;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  table, th, td {
+    border: 1px solid;
+  }
+ 
