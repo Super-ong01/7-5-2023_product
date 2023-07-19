@@ -1,0 +1,69 @@
+.table{
+    border: solid 3px#9955ff;
+}
+.table tr:hover {
+ background-color: #f2ff01;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  table, th, td {
+    border: 1px solid;
+  }
+  input[type=text] {
+    background-color: rgb(255, 225, 0);
+    
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    border-radius: 100px;
+    width: 1000px;
+    height: 50px;
+  }
+  body {
+    background-color: rgb(0, 220, 254);
+    font-size: 25px;
+  }
+  input[type=submit] {
+    background-color: rgb(252, 24, 70);
+    
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    border-radius: 100px;
+    width: 400px;
+    height: 70px;
+    font-size: 25px;
+    cursor: pointer;
+   
+    
+  }
+  input[type=int] {
+    background-color: rgb(255, 225, 0);
+    
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    border-radius: 100px;
+    width: 1000px;
+    height: 50px;
+  }
+ .button{
+  background-color: #04AA6D;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align: center;
+ }
+ .button:hover{
+  background-color: #9955ff;
+ }
+ .con{
+  max-width: 800px;
+  margin: auto;
+ }
+ 

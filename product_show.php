@@ -1,4 +1,7 @@
+<title>Document</title>
 <link rel="stylesheet" href = "style.css"/>
+<center><h1>ong</h1></center>
+<center>
 <?php
   include "connect.php";
   
@@ -37,3 +40,4 @@ if (mysqli_num_rows($result) > 0) {
 
 mysqli_close($conn);                              # <table style="border:1px solid#990055">กรอบ style sheet เเบบ in line (solid เส้นทึบ)(tr เเถว)(td คอลัม)(th หัวข้อ)
 ?>
+</center> 
