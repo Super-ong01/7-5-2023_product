@@ -14,6 +14,11 @@ $sql ="UPDATE tbl_product SET
     WHERE id='$_GET[id]' ";
 
 if (mysqli_query($conn,$sql)) {
+    if (copy($tempname, $folder)) {
+        echo "อับโหลดรูปได้แล้ว";
+      } else {
+        echo "อับโหลดรูปไม่ได้";
+      }
     echo"update done";
     header("location: product_show.php");
 } else {
