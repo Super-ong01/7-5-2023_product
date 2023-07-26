@@ -12,7 +12,7 @@ $row = mysqli_fetch_assoc($result)
 ราคา <input type = "int" name="price"value="<?php echo $row[price]; ?>"/><br/><br/>
 จำนวน <input type = "int" name="stock"value="<?php echo $row[stock]; ?>"/><br/><br/>
 Deacription <input type = "text" name="deacription"value="<?php echo $row[deacription]; ?>"/><br/><br/>
-
+เเนบรูป <input type = "file" name="photo"value="<?php echo $row[photo]; ?>"/><br/><br/>
 <center><input type = "submit" class="button" value="บันทึกข้อมูลให้Superong"/><center>
 
 

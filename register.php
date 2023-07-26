@@ -11,6 +11,8 @@
             ราคา <input type="int" name="price" class="input" /> <br /><br />
             จำนวน <input type="int" name="stock" class="input" /> <br /><br />
             Deacription<input type="text" name="deacription" class="input" /> <br /><br />
+            เเนบรูป <input type = "file" name="photo"/> <br/>
+            
             </p>
            <center><input type="submit" value="บันทึกข้อมูลให้Superong" class="button" /><center><br><br>
 

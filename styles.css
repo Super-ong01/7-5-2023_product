@@ -5,7 +5,7 @@
  background-color: #f2ff01;
 }
 th, td {
-    padding: 15px;
+    padding: 30px;
     text-align: left;
   }
   table, th, td {
@@ -22,7 +22,7 @@ th, td {
     height: 50px;
   }
   body {
-    background-color: rgb(0, 220, 254);
+    background-color: rgb(255, 255, 255);
     font-size: 25px;
   }
   input[type=submit] {
@@ -60,10 +60,17 @@ th, td {
   text-align: center;
  }
  .button:hover{
-  background-color: #9955ff;
+  background-color: #6600ff;
  }
  .con{
   max-width: 800px;
   margin: auto;
+ }
+ .center{
+  border: solid 3px#9955ff;
+  
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
  }
  
